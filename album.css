@@ -1,0 +1,51 @@
+/* Álbum da turma: fotografias completas, sem recortes. */
+.memories{padding-top:75px;padding-bottom:70px}
+.album-heading{display:flex;justify-content:space-between;gap:20px;align-items:center;border-top:2px solid var(--ink);border-bottom:1px solid var(--line);padding:16px 0;margin-bottom:27px;font-size:10px;font-weight:800;letter-spacing:1.3px;color:var(--blue)}
+.album-heading i{font-style:normal;color:var(--coral);padding:0 8px}
+.photo-album{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:28px 24px;align-items:start}
+.album-photo{grid-column:span 2;background:white;border:1px solid #d8e1d4;box-shadow:4px 4px 0 #d5e7da;margin:0;min-width:0;overflow:hidden}
+.album-lead{grid-column:span 4}.album-half{grid-column:span 3}.album-final{grid-column:span 6;border-top:7px solid var(--mustard)}
+.gallery-open{display:block;position:relative;background:#e3eadf;text-decoration:none}
+.gallery-open img{display:block;width:100%;height:auto}
+.gallery-open:focus-visible{outline-offset:-5px;outline:4px solid var(--mustard)}
+.photo-expand{position:absolute;right:12px;bottom:12px;background:#fffdf2ed;color:var(--ink);font-size:10px;font-weight:800;padding:6px 10px;box-shadow:0 2px 9px #142f2420;transition:background .15s}
+.gallery-open:hover .photo-expand{background:var(--mustard)}
+.album-caption{padding:19px 20px 22px}
+.album-index{display:block;font-size:9px;letter-spacing:1.5px;color:var(--blue);font-weight:800;margin-bottom:10px}
+.album-caption h3{font:500 24px/1.2 var(--serif);letter-spacing:-.7px;overflow-wrap:break-word;text-wrap:balance}
+.album-caption p{font-size:12px;line-height:1.8;color:#4d6457;margin-top:10px}
+.album-lead .album-caption h3{font-size:31px}.album-lead .album-caption p{font-size:13px}
+.album-intro{grid-column:span 2;background:var(--blue);color:#fffaf0;padding:32px 28px;align-self:stretch;display:flex;flex-direction:column;justify-content:center;min-width:0}
+.album-label{font-size:10px;letter-spacing:1.4px;font-weight:800;color:#dce6ff}
+.album-symbol{font-size:66px;line-height:1;color:var(--mustard);margin-top:31px;margin-bottom:28px}
+.album-intro h3{font:500 42px/1.1 var(--serif);letter-spacing:-1.2px}.album-intro h3 em{color:var(--mustard)}
+.album-intro>p{font-size:14px;line-height:1.9;color:#e7edff;margin-top:25px}.album-tip{font-size:10px;line-height:1.8;color:#ffdf7b;border-top:1px solid #6b84bd;padding-top:19px;margin-top:28px}
+.album-photo:nth-of-type(3n) .album-index{color:#a94c32}
+.album-final .gallery-open{padding:20px 0;background:#dcefe2}
+.album-final .gallery-open img{max-width:900px;width:100%;margin-inline:auto}
+.album-final .album-caption{display:grid;grid-template-columns:auto 1fr 1fr;gap:20px;align-items:center;padding:24px}
+.album-final .album-index,.album-final .album-caption p{margin:0}.album-final .album-caption h3{font-size:31px}
+.album-credit{font-size:10px;color:#61776a;line-height:1.8;margin-top:25px}
+.school-archive{border-block:1px solid var(--line);margin-top:37px}
+.school-archive summary{padding:20px 4px;cursor:pointer;font-size:14px;font-weight:800;line-height:1.8;color:var(--ink)}
+.school-archive summary>span{float:right;font-size:10px;font-weight:600;color:var(--blue);padding-top:3px}
+.archive-content{padding:10px 8px 30px;max-width:680px}.archive-content .school-photo{transform:none;box-shadow:none}
+.album-dialog{width:min(1100px,calc(100% - 48px));max-height:calc(100dvh - 36px);padding:20px 24px 18px;border:1px solid #829b89;background:#fffaf0;color:var(--ink);box-shadow:0 20px 80px #0008;overflow:auto}
+.album-dialog::backdrop{background:#092b27ed}
+.album-dialog-head{display:flex;justify-content:space-between;gap:20px;align-items:center;margin-bottom:16px}
+.album-dialog-head>p{font-size:11px;letter-spacing:1px;font-weight:800;color:var(--blue)}
+.album-close{border:1px solid #bccfc0;background:none;padding:8px 13px;display:flex;align-items:center;gap:16px;font-size:12px;font-weight:700;min-height:44px}
+.album-close span{font-size:25px;line-height:1}
+.album-dialog-figure{margin:0}
+.album-dialog-figure>img{width:100%;max-height:65dvh;height:auto;object-fit:contain;display:block;background:#e7ecdf}
+.album-dialog-figure figcaption{padding-top:16px}.album-dialog-figure h2{font:500 27px/1.2 var(--serif);letter-spacing:-.7px}.album-dialog-figure figcaption>p{font-size:12px;line-height:1.8;margin-top:8px;color:#4d6457}
+.album-dialog-controls{display:flex;justify-content:space-between;align-items:center;gap:15px;margin-top:19px;padding-top:15px;border-top:1px solid var(--line)}
+.album-dialog-controls button{background:var(--ink);color:white;border:1px solid var(--ink);padding:9px 15px;font-size:11px;font-weight:700;min-height:44px;min-width:110px}
+.album-dialog-controls button:hover{background:var(--blue);border-color:var(--blue)}
+.album-dialog-controls>p{font-size:9px;letter-spacing:1.2px;font-weight:800;color:#6a7c6f;text-align:center}
+.album-dialog-controls span{margin-inline:6px}
+body:has(.album-dialog[open]){overflow:hidden}
+@media(max-width:1050px){.photo-album{gap:24px 20px}.album-caption{padding:16px 16px 18px}.album-caption h3{font-size:22px}.album-intro{padding:26px 23px}.album-intro h3{font-size:35px}.album-symbol{font-size:53px;margin:25px 0}.album-intro>p{font-size:13px;margin-top:20px}.album-final .album-caption h3{font-size:27px}}
+@media(max-width:760px){.memories{padding-top:50px;padding-bottom:48px}.album-heading{display:block;padding:15px 0;margin-bottom:22px;font-size:9px;line-height:1.8;letter-spacing:1px}.album-heading>span{display:block}.album-heading>span+span{margin-top:7px;font-size:8px}.photo-album{grid-template-columns:repeat(2,minmax(0,1fr));gap:23px 16px}.album-photo,.album-lead,.album-half,.album-final{grid-column:span 2}.album-intro{grid-column:span 2;min-height:0;padding:28px 25px;display:block}.album-symbol{float:right;font-size:49px;margin:26px 0 0 10px}.album-label{font-size:9px}.album-intro h3{font-size:35px;margin-top:25px;max-width:250px;letter-spacing:-1px}.album-intro>p{font-size:14px;margin-top:22px}.album-tip{display:block;font-size:10px;margin-top:23px;padding-top:17px}.album-caption{padding:19px 18px 21px}.album-caption h3,.album-lead .album-caption h3{font-size:27px;line-height:1.2}.album-caption p,.album-lead .album-caption p{font-size:13px;line-height:1.85}.album-index{font-size:9px}.photo-expand{right:10px;bottom:10px;font-size:9px;padding:6px 9px}.album-final{border-top-width:5px}.album-final .gallery-open{padding:0}.album-final .album-caption{display:block;padding:19px 18px 21px}.album-final .album-caption h3{font-size:27px;margin-top:10px}.album-final .album-caption p{margin-top:10px}.album-credit{font-size:10px;margin-top:23px}.school-archive{margin-top:28px}.school-archive summary{font-size:13px;padding:17px 2px}.school-archive summary>span{float:none;display:block;font-size:9px;padding-left:15px;padding-top:5px}.archive-content{padding:8px 0 25px}.album-dialog{width:calc(100% - 20px);max-height:calc(100dvh - 20px);padding:14px 13px}.album-dialog-head{margin-bottom:13px;gap:12px}.album-dialog-head>p{font-size:10px;letter-spacing:.7px}.album-close{font-size:11px;padding:7px 10px;gap:12px;min-height:42px}.album-dialog-figure>img{max-height:62dvh}.album-dialog-figure h2{font-size:24px}.album-dialog-figure figcaption>p{font-size:12px}.album-dialog-controls{gap:10px;margin-top:15px;padding-top:13px}.album-dialog-controls button{min-width:105px;padding:8px 11px;font-size:11px}.album-dialog-controls>p{display:none}}
+@media(prefers-reduced-motion:reduce){.photo-expand{transition:none}}
+@media print{.album-dialog{display:none!important}.memories{padding:25px 0}.album-heading{font-size:7px;padding:10px 0;margin-bottom:18px}.photo-album{grid-template-columns:repeat(6,minmax(0,1fr));gap:15px}.album-photo{grid-column:span 3;box-shadow:none;break-inside:avoid}.album-lead,.album-final{grid-column:span 6}.album-intro{display:none}.album-caption{padding:10px}.album-caption h3,.album-lead .album-caption h3{font-size:17px;line-height:1.2}.album-caption p,.album-lead .album-caption p{font-size:8px;line-height:1.6;margin-top:6px}.album-index{font-size:6px;margin-bottom:6px}.photo-expand{display:none}.album-final .gallery-open{padding:0}.album-final .gallery-open img{max-width:100%}.album-final .album-caption{padding:12px;gap:15px}.album-final .album-caption h3{font-size:20px}.album-credit{font-size:7px;margin-top:15px}.school-archive{display:none}.album-heading i{font-size:7px}}

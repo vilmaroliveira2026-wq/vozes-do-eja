@@ -1,0 +1,56 @@
+VOZES DO EJA — CÓDIGO COMPLETO DA REVISTA
+Colégio Estadual Professor Amálio Pinheiro · Ponta Grossa (PR)
+Edição 01 · 2026 · Versão 8 — edição profissional + GitHub Pages
+
+SITE
+https://vilmaroliveira2026-wq.github.io/vozes-do-eja/
+Repositório: https://github.com/vilmaroliveira2026-wq/vozes-do-eja
+
+COMO ABRIR
+1. Extraia todo o conteúdo deste ZIP para uma pasta no computador.
+2. Abra o arquivo index.html com seu navegador.
+3. Mantenha os arquivos CSS, o script.js e as pastas images e fonts juntos.
+Não é preciso instalar programas ou executar um processo de compilação.
+
+COMO EDITAR
+- index.html: nome da revista, escola, textos, relato e legendas das fotos.
+- script.js: galeria, botões de compartilhar e impressão.
+- style.css: estilos gerais.
+- color-edition.css, editorial.css e album.css: cores e seções da revista.
+- future-cover.css, education-cover.css e students-cover.css: aparência da capa.
+- fonts.css e fonts/: fontes e suas licenças.
+- images/: fotos da turma, imagens da escola e ilustrações.
+- qr-code-vozes-do-eja.png: QR Code da publicação atual.
+
+Para editar, abra os arquivos de texto em um editor de código ou no Bloco de Notas.
+Salve com codificação UTF-8 e atualize a página no navegador.
+A revista é estática: alterações são feitas nos arquivos e republicadas.
+
+O QUE MUDOU NA VERSÃO 8
+- Correção de português no relato da Gabrielly ("A Educação...", antes "O Educação...").
+- Expediente sem "A informar": turma "EJA · 2026" e coordenação "Equipe editorial · Colégio Amálio Pinheiro".
+- SEO para compartilhar: Open Graph, Twitter Card, endereço canônico e dados estruturados.
+- Imagem da capa com largura/altura definidas e cabeçalho fixo no topo ao rolar.
+- QR Code refeito para o novo endereço do GitHub Pages.
+- Removida a imagem capa-educacao-neon.png (2,3 MB), que não era usada na página.
+  Ela continua no ZIP original enviado em 08/11/2026.
+- Novos arquivos: README.md, robots.txt e .nojekyll (GitHub Pages).
+
+PUBLICAÇÃO EM OUTRA HOSPEDAGEM
+O index.html já está na raiz deste ZIP, junto com os arquivos usados pela página.
+O pacote contém HTML, CSS, JavaScript e imagens, sem dependências de servidor.
+
+ATUALIZAÇÃO DO ENDEREÇO E DO QR CODE
+A revista deste pacote mantém o endereço da publicação atual:
+https://vilmaroliveira2026-wq.github.io/vozes-do-eja/
+Ao publicar em outro endereço:
+1. Atualize a constante magazineURL na primeira linha do script.js.
+2. Atualize o endereço do link "Abrir a revista no navegador" em index.html.
+3. Gere um QR Code com o endereço definitivo e substitua qr-code-vozes-do-eja.png.
+Verifique o novo QR Code antes de imprimir ou compartilhar.
+
+CONTEÚDO INCLUÍDO
+Capa futurista com estudantes; apresentação do colégio; relato de Gabrielly
+Martinelli Kutrowatz Peixoto; dez fotografias da turma; registros da escola;
+roteiro de relatos; créditos; galeria e seção de compartilhamento.
+As fontes conservam suas licenças na pasta fonts.

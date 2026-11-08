@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://vilmaroliveira2026-wq.github.io/vozes-do-eja/sitemap.xml

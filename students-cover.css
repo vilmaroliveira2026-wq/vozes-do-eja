@@ -1,0 +1,17 @@
+/* A identidade da revista e do colégio em primeiro plano. */
+.education-cover{min-height:920px}
+.education-cover-content{width:54%;max-width:630px;padding-top:72px;padding-bottom:66px}
+.education-title{font-size:clamp(82px,8.1vw,114px);font-weight:750;letter-spacing:-.075em;line-height:.98;max-width:620px}
+.education-title em{font-weight:550;line-height:1.08;margin-top:4px}
+.education-kicker{font-size:11px;letter-spacing:2px;margin-bottom:22px}
+.cover-school-name{font-family:var(--sans);font-weight:700;line-height:1.2;letter-spacing:0;border-left:3px solid #55ed83;padding-left:17px;margin:29px 0 0;color:#effff4;text-wrap:initial;max-width:100%}
+.cover-school-name>span{display:block;font:750 13px/1.7 var(--sans);letter-spacing:1.5px;text-transform:uppercase;color:#a7dbb8}
+.cover-school-name>strong{display:block;font:750 41px/1.16 var(--sans);letter-spacing:-1.5px;margin-top:5px;color:#f0fff4}
+.education-intro{font-size:14px;margin-top:23px;line-height:1.9;color:#adc8b7}
+.education-actions{margin-top:28px}
+.education-backdrop img{width:75%;right:-5%;top:-1%;height:102%}
+.education-backdrop::after{background:linear-gradient(90deg,#030c08 0%,#030c08fa 19%,#030c08bd 34%,#030c0838 52%,#030c0800 74%),linear-gradient(0deg,#030c08 0%,#030c0870 12%,transparent 39%,#030c0800 85%,#030c0866 100%)}
+@media(max-width:1050px){.education-cover{min-height:860px}.education-cover-content{width:55%;padding-top:66px;padding-bottom:58px}.education-title{font-size:90px}.cover-school-name>span{font-size:11px;letter-spacing:1.2px}.cover-school-name>strong{font-size:34px;letter-spacing:-1.2px}.education-backdrop img{right:-11%;width:80%;top:0;height:100%}}
+@media(max-width:760px){.education-cover{min-height:0}.education-cover-top{padding-top:19px}.education-cover-content{width:100%;max-width:none;padding-top:310px;padding-bottom:30px}.education-backdrop img{height:585px;right:0;top:-4px;width:100%;object-fit:contain;object-position:center top}.education-backdrop::after{background:linear-gradient(0deg,#030c08 0%,#030c08 22%,#030c08f2 39%,#030c0878 52%,#030c0800 73%,#030c080d 92%,#030c0860 100%)}.education-kicker{font-size:9px;letter-spacing:1.9px;margin-bottom:15px}.education-title{font-size:74px;line-height:.99;letter-spacing:-.075em;max-width:100%;font-weight:750}.education-title em{display:block;font-size:76px;line-height:1.08;margin-left:0;margin-top:2px;letter-spacing:-.07em}.cover-school-name{margin-top:23px;padding-left:14px;border-left-width:3px}.cover-school-name>span{font-size:12px;letter-spacing:1px;line-height:1.7}.cover-school-name>strong{font-size:29px;line-height:1.2;letter-spacing:-.9px;margin-top:5px}.education-intro{font-size:13px;line-height:1.85;margin-top:20px}.education-actions{margin-top:24px}.education-topics{margin-top:22px}}
+@media(max-width:370px){.education-title{font-size:69px}.education-title em{font-size:72px}.cover-school-name>strong{font-size:27px}.cover-school-name>span{font-size:11px;letter-spacing:.9px}}
+@media print{.education-cover{min-height:0}.education-cover-content{width:58%;padding-top:78px;padding-bottom:80px}.education-title{font-size:76px}.education-title em{font-size:76px;display:block;margin-left:0}.cover-school-name{margin-top:25px;padding-left:13px}.cover-school-name>span{font-size:11px;letter-spacing:.9px}.cover-school-name>strong{font-size:29px;letter-spacing:-1px}.education-intro{font-size:11px}.education-backdrop img{width:83%;right:-14%;height:100%;top:0;object-fit:contain}}
