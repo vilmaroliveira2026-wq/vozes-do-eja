@@ -54,3 +54,15 @@ Capa futurista com estudantes; apresentação do colégio; relato de Gabrielly
 Martinelli Kutrowatz Peixoto; dez fotografias da turma; registros da escola;
 roteiro de relatos; créditos; galeria e seção de compartilhamento.
 As fontes conservam suas licenças na pasta fonts.
+
+VERSÃO 9 — 09/11/2026: DEPOIMENTOS
+- Nova seção "03 / Depoimentos" com as 9 respostas do formulário
+  "Vozes da EJA — respostas" (4 a 7 de novembro de 2026): 6 depoimentos
+  completos (Ronaldo, Dones, Anselmo, Carolina, Edson e Ana Lucélia)
+  e 3 respostas curtas (Isadora, Elisângela e 1 aluno sem nome).
+- As seções seguintes foram renumeradas (Memórias 04, Vamos escrever?
+  05, Expediente 06, Leia e compartilhe 07) e o menu ganhou o link
+  "Depoimentos".
+- Os textos mantêm o jeito de contar de cada pessoa; só foram
+  ajustados espaçamentos. A resposta "Summ" da linha sem nome não
+  foi publicada por não ser legível.

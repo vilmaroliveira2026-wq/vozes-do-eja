@@ -6,7 +6,7 @@ Revista digital da turma da Educação de Jovens e Adultos (EJA) do
 - **Site:** https://vilmaroliveira2026-wq.github.io/vozes-do-eja/
 - **Edição:** 01 · 2026
 - **Relato em destaque:** Gabrielly Martinelli Kutrowatz Peixoto — “Um divisor de águas na minha trajetória”
-- **Conteúdo:** apresentação do colégio, relatos da turma, 10 fotografias da turma em 2026, registros da escola, roteiro para novos relatos e QR Code para compartilhar.
+- **Conteúdo:** apresentação do colégio, relatos da turma, 9 depoimentos (alunos, professores e funcionários, formulário de 4 a 7 de novembro de 2026), 10 fotografias da turma em 2026, registros da escola, roteiro para novos relatos e QR Code para compartilhar.
 
 ## Como abrir
 
